@@ -3,7 +3,7 @@ import frida, sys
 frida_script = '''
 var vmware_vmx = Module.findBaseAddress("vmware-vmx.exe");
 
-// var execRPCfunc = vmware_vmx.add(0xA3A5C); // for vmx_20190515\
+// var execRPCfunc = vmware_vmx.add(0xA3A5C); // for vmx_20190515
 var execRPCfunc = vmware_vmx.add( 0x784a0 );   // for vmx_15.1_20200218
 
 console.log("vmware-vmx : " + vmware_vmx.toString(16));
