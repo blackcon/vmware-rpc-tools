@@ -12,3 +12,5 @@
    - Using Frida, attach to the target process and get the base address.
    - Hook at the location the execRPCFunc (base_address + offset)
    - Outputs the argument value passed to the function.
+ - Result
+   ![Result Sniff](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/1.%20result%20sniff.png?raw=true)
