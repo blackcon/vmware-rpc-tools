@@ -32,4 +32,4 @@
  - Reference
    - https://sites.google.com/site/chitchatvmback/backdoor
   - Result
-    ![Result Backdoor](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/2.%20result%20backdoor.png?raw=true)
+   ![Result Backdoor](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/2.%20result%20backdoor.png?raw=true)
