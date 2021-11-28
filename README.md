@@ -17,7 +17,7 @@
  - Result
    ![Result Sniff](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/1.%20result%20sniff.png?raw=true)
 
-
+---
 ### 2. vmware rpci fuzzer (`draft version`)
  - Languate: `Python 2.7.17`
  - Module
@@ -29,7 +29,7 @@
  - Concenpt
    - Randomly generates various commands.([CommandList](https://github.com/vmware/open-vm-tools/blob/master/open-vm-tools/lib/include/backdoor_def.h))
    - Request the created chunks in random order.
- - Reference
-   - https://sites.google.com/site/chitchatvmback/backdoor
-  - Result
-   ![Result Backdoor](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/2.%20result%20backdoor.png?raw=true)
+ - Result
+   - ![Result Backdoor](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/2.%20result%20backdoor.png?raw=true)
+    
+
