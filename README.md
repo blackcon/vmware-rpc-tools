@@ -19,7 +19,7 @@
 
 
 ### 2. vmware rpci fuzzer (`draft version`)
- - Languate: `Python 3.7.2`
+ - Languate: `Python 2.7.17`
  - Module
    - `keystone` (asm tools)
    - `ctypes`
