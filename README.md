@@ -1,8 +1,10 @@
 # vmware-rpc-tools
 ### 1. vmware rpc sniffer
- - Languate: `Python`
+ - Languate: `Python 3.7.2`
  - Module: `FRIDA` (python library for hooking)
- - Target: Vmware Workstation 15
+ - Target
+   - Vmware Workstation 15
+   - Runing tool on `host` enviroment
  - Description
    - In vmware, host and guest communicate using rpc.
    - This tool(rpc-sniffer.py) was made for easy viewing of data between communication.
@@ -14,3 +16,17 @@
    - Outputs the argument value passed to the function.
  - Result
    ![Result Sniff](https://github.com/blackcon/vmware-rpc-tools/blob/main/images/1.%20result%20sniff.png?raw=true)
+
+
+### 2. vmware rpci fuzzer (`draft version`)
+ - Languate: `Python 3.7.2`
+ - Module
+   - `keystone` (asm tools)
+   - `ctypes`
+ - Target
+   - Vmware Workstation 15
+   - Runing tool on `guest` enviroment
+ - Concenpt
+   - ㅁ
+ - Reference
+   - https://sites.google.com/site/chitchatvmback/backdoor
