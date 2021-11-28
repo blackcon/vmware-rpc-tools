@@ -12,7 +12,8 @@ def Backdoor():
 
     encoding, cnt = ks.asm(
         b'mov eax,564D5868h;'
-        b'mov ecx, 00;'
+        b'mov ecx, 01;' # 01. GET Processor speed (MHz)
+                        # backdoor's command(ref. open-vmtools)
         b'mov edx, 5658h;'
         b'in eax, dx;'
         b'ret'
