@@ -27,6 +27,7 @@
    - Vmware Workstation 15
    - Runing tool on `guest` enviroment
  - Concenpt
-   - ㅁ
+   - Randomly generates various commands.([CommandList](https://github.com/vmware/open-vm-tools/blob/master/open-vm-tools/lib/include/backdoor_def.h))
+   - Request the created chunks in random order.
  - Reference
    - https://sites.google.com/site/chitchatvmback/backdoor
